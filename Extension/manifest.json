@@ -1,0 +1,16 @@
+{
+    "name": "שסק",
+    "version": "1.0",
+    "description": "שמירת סימניות קבועה",
+    "permissions": ["bookmarks", "<all_urls>","tabs","storage", "activeTab", "http://localhost/:8080"],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "shesecc.png"
+    },
+    "manifest_version": 2
+}
